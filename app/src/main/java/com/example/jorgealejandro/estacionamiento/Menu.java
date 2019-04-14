@@ -32,7 +32,7 @@ public class Menu extends AppCompatActivity implements ActivityCompat.OnRequestP
         startActivity(i);
     }
     public void irmapas(View view){
-        Intent i =new Intent(this,MapsActivity1.class);
+        Intent i =new Intent(this,Maps.class);
         startActivity(i);
     }
 
